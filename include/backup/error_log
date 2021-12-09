@@ -1,0 +1,34 @@
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(): Failed to enable crypto in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(https://ashleystevensdesign.com/wp-content/uploads/2020/06/logo.png): failed to open stream: operation failed in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(): Failed to enable crypto in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(https://ashleystevensdesign.com/wp-content/uploads/2018/01/bike.jpg): failed to open stream: operation failed in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(): Failed to enable crypto in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(https://ashleystevensdesign.com/wp-content/uploads/2020/07/hiring-discrimination.jpg): failed to open stream: operation failed in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(): Failed to enable crypto in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(https://ashleystevensdesign.com/wp-content/uploads/2018/02/Google-Analytics-Logo-624x243.jpg): failed to open stream: operation failed in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(): Failed to enable crypto in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(https://ashleystevensdesign.com/wp-content/uploads/2018/02/sql-language-logo-624x243.jpg): failed to open stream: operation failed in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(): Failed to enable crypto in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[25-Sep-2021 18:42:03 America/New_York] PHP Warning:  getimagesize(https://ashleystevensdesign.com/wp-content/uploads/2020/06/logo-white.png): failed to open stream: operation failed in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 114
+[14-Oct-2021 16:39:27 America/New_York] PHP Warning:  file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/simple_html_dom.php on line 82
+[14-Oct-2021 16:39:27 America/New_York] PHP Warning:  file_get_contents(http://design2seo.co): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/simple_html_dom.php on line 82
+[14-Oct-2021 16:39:27 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php:116
+Stack trace:
+#0 {main}
+  thrown in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 116
+[14-Oct-2021 16:40:20 America/New_York] PHP Warning:  get_headers(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 15
+[14-Oct-2021 16:40:20 America/New_York] PHP Warning:  get_headers(https://design2seo.co): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 15
+[14-Oct-2021 17:00:30 America/New_York] PHP Warning:  get_headers(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 15
+[14-Oct-2021 17:00:30 America/New_York] PHP Warning:  get_headers(https://design2seo.c): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/desiwxbp/public_html/wp-content/themes/design2seo/include/process2.php on line 15

@@ -1,0 +1,131 @@
+/*
+Theme Name: Design2SEO
+Template: cafe-faucher
+Text Domain: cafe-faucher
+*/
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url('fonts/roboto/Roboto-Regular.ttf') format("truetype"),
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url('fonts/roboto/Roboto-Bold.ttf') format("truetype"),
+}
+@font-face {
+    font-family: "Sanchez-Regular";
+    src: url('fonts/sanchez/Sanchez-Regular.woff') format('woff'),
+}
+:root { --primary: #fff;
+--primary-font: "Roboto-Regular", "Helvetica", "Arial", sans-serif;
+--primary-font-bold: "Roboto-Bold", "Helvetica", "Arial", sans-serif;
+--secondary-font: "Sanchez-Regular", "Helvetica", "Arial", sans-serif;
+--primary: #fff;
+--secondary: #4c85c5;
+--body: #f0f0f0;
+--p: #4a4a4a;
+--feature-box: #f2f2f2;
+--nav-hover: #26abc8;
+--mobile-nav: #000;
+--mobile-nav-hover: #000000;
+--anchor: #26abc8;
+--anchor-hover: #20bdc7;
+}
+body {
+    background: var(--body);
+    font-family: var(--primary-font);
+    font-size: 15px;
+    color: var(--p);
+    margin: 0;
+    overflow-x: hidden;
+}
+a.more { align-self: flex-end; font-size: 12px; }
+.page-id-21 p { max-width: 90%; }
+h2, h3, h4 { font-family: var(--secondary-font); }
+.home-banner h1 {
+    font-size: 110px;
+    font-weight: bold;
+    color: var(--secondary);
+    line-height: 1;
+    text-align: left;
+}
+h3.services { font-size: 15px; font-weight: bold; }
+header {
+}
+.logo img {
+    width: 160px;
+    height: auto;
+    max-width: none;
+}
+.header-menu li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #231f20;
+}
+.header-menu li a:hover{
+color: var(--nav-hover);
+}
+.header-menu li.current-menu-item a {
+    color: var(--nav-hover);
+}
+ul.header-menu {
+    padding-bottom: 7px;
+    margin: 0;
+    justify-self: end;
+}
+ul.header-menu {
+    padding-bottom: 7px;
+    margin: 0;
+    justify-self: end;
+}
+/* Home Banner */
+.home-banner img { max-width: 384px; width: 100%; }
+.home-banner h1 { font-size: 110px; font-weight: bold; color: var(--secondary); line-height: 1; text-align: left; }
+.home-banner h5 { margin-top: 22px; font-size: 21px; line-height: 34px; }
+.grid.banner-right { justify-self: end; position: relative; top: 131px; }
+.home-banner img { width: 100%; }
+.home-banner {position: relative; margin-top: 45px; margin-bottom: 12px; }
+.home-about { max-width: 737px; margin-bottom: 20px; }
+.home-about h2 { color: var(--secondary); margin-bottom: 22px; }
+.services h2 { color: var(--secondary); }
+.services div.icon { color: var(--secondary); font-size: 36px; }
+/* Numbered List */
+span.number { background: #d9d9d9; color: #fff; border-radius: 5px 5px 5px 0; padding: .2em .5em; margin: 0 12px 8px 0; display: inline-block; }
+h2.number { color: #464646; display: inline-block; }
+h3.number { color: #464646; display: inline-block; }
+/* Fun Fact */
+ul.fact-parent { column-count: 1; margin: 0; padding: 0; width: 100%; }
+/* Word List */
+ul.letter-nav li { display: inline-block; width: 3.7%; text-align: center; }
+ul.letter-nav { width: 100%; padding: 0; }
+ul.word-parent { column-count: 3; margin: 0; padding: 0; width: 100%; margin-bottom: 24px; }
+li.word-banner { padding: 14px; background: #efefef; position: relative; -webkit-column-break-inside: avoid; break-inside: avoid; page-break-inside: avoid; margin-bottom: 14px; }
+li.word-banner h4 { display: inline-block; line-height: 22px; margin: 0; word-break: break-word; }
+li.word-banner p { font-size: 16px; line-height: 22px; margin: 12px 0 0; width: 100%; }
+body.loaded .fadein {
+    opacity: 1;
+}
+/* Code */
+code, pre {
+    font-size: .9375rem;
+    background-color: #edf5fa;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+code, kbd, pre, samp {
+    font-family: monospace,monospace;
+    font-size: 1em;
+}
+.emgithub-container { font-size: 13px; line-height: 20px; }
+@media (max-width: 940px) {
+.home-banner h1 {
+    font-size: 45px; }
+
+.grid.banner-right { justify-self: end; position: relative; top: 65px; }
+.home-banner img {
+    width: 69%;
+}
+}
+@media (max-width: 747px) {
+.logo img { width: 189px; top: 8px; }
+.grid.services { margin-bottom: 34px; }
+}
